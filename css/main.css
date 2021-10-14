@@ -1,0 +1,219 @@
+/*******************************************
+ GENERAL 
+******************************************/
+
+* {
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	color:inherit;
+}
+
+body {
+
+	font-family: 'Josefin Sans', sans-serif;
+	color: #A69C7B;
+	
+}
+
+.clearfix::after {
+	content: " ";
+	display: table;
+	clear: both;
+}
+
+
+
+/*******************************************
+HEADER
+******************************************/
+
+
+.main-header {
+	position: fixed;
+	background-color: #F3EACC;
+	overflow: auto;
+	width: 100%;
+	top: 0;
+	z-index: 1000;
+	text-align: center;
+}
+
+#logo h1 {
+	color: #cf6017;
+	font-size: 3.0em;
+	font-weight: bold;
+  position: relative;
+  text-align: center;
+ }
+
+.top-logo {
+	position: absolute;
+	float: right;
+	width: 66px;
+	margin-left: -7px;
+ }
+
+
+/*******************************************
+NAV
+******************************************/
+
+nav {
+	background-color: #cf6017;
+  padding: 5px;
+}
+
+nav a {
+	transition: all 0.2s;
+}
+
+
+nav ul {
+	list-style: none;
+	margin: 14px 0;
+	padding: 0;
+	display: none;
+}
+
+nav li {
+	display: inline-block;
+	padding: 5px 0;
+}
+
+
+nav a:hover {
+	color: #857e67;
+	font-weight: bold;
+}
+
+nav a.selected {
+	color: #857e67;
+}
+
+
+/*******************************************
+SEC HEADER
+******************************************/
+
+.secondary-header {
+	margin-bottom: 30px;
+	text-align: center;
+  padding-top: 30px;
+}
+
+h1, h2 {
+	color: #857e67;
+	font-size: 1.8em;
+	font-weight: normal;
+}
+
+
+
+/*******************************************
+GALLERY
+******************************************/
+
+.wrapper {
+	max-width: 760px;
+	margin: 100px auto;
+	padding: 30px 5% 30px 5%;
+	text-align: center;
+}
+
+button {
+  padding: 10px 20px;
+  color: #FFF;
+  background-color: #F47521;
+  font-size: 1.3em;
+  text-align: center;
+  font-style: normal;
+  border-radius: 5px;
+  width: 100%;
+  border: 1px solid #D86323;
+  border-width: 1px 1px 3px;
+  box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+  margin-bottom: 10px;
+}
+
+#gallery {
+	list-style: none;
+	margin: 0;
+	padding-top: 15px;
+}
+
+#gallery li {
+	padding-bottom: 30px;
+}
+
+img {
+	max-width: 80%;
+}
+
+#overlay {
+	background: rgba(0, 0, 0, 0.7);
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: none;
+	text-align: center;
+}
+
+#overlay img {
+	max-width: 700px;
+	margin-top: 6%;
+}
+
+
+select {
+  border-radius: 5px;
+  padding: 5px;
+  width: 90%;
+}
+
+/*******************************************
+PACCHETTI & CONTATTI
+******************************************/
+
+#pacchetti h3, #contatti h3 {
+	color: #cf6017;
+	font-size: 1.2em;
+}
+
+#pacchetti h4 {
+	color: #595547;
+}
+
+#pacchetti .wrapper {
+	padding-top: 100px;
+}
+
+#contatti {
+	padding: 50px 10px 30px 10px;
+	font-weight: bold;
+	line-height: 25px;
+	color: #595547;
+}
+
+#contact-info {
+	list-style: none;
+	color: #A69C7B;
+	text-decoration: underline;
+}
+
+
+/*******************************************
+FOOTER
+******************************************/
+.main-footer {
+	margin-left: 20px;
+}
+
+
+
+
+
